@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flashgig">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlashGig">
+        <activity
+            android:name="com.example.flashgig.activities.JobListActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.flashgig.activities.JobAdderActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.flashgig.activities.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.flashgig.activities.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.flashgig.activities.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.flashgig.activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
